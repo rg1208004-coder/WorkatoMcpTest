@@ -4,7 +4,7 @@ class Login:
     def __init__(self):
         self.is_logged_in = False
 
-    def login(self, username, password):
+    def rameshloginPage(self, username, password):
         if username == "admin" and password == "admin123":
             self.is_logged_in = True
             return "Login successful"
